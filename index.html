@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Website</title>
+  </head>
+  <body class="container">
+   <section id="header">
+    <div class=" header__container">
+        <h5>Hello I`m</h5>
+            <h1>Ruslan Storonskyi</h1>
+            <h5 class="text-light"> Junior Frontend Deweloper</h5>
+            <div class="cta">
+                <a href="my_cv/cv_rs_en.pdf" download id="download" class='btn'>Download CV</a>   
+                <a href="#contact"  class='btn btn-primary'>Let`s Talk</a>
+            </div>
+            <div class="me">
+                <img class='me_foto' src="images/cv_img.jpg" alt="me" />
+            </div>
+            <a href="#footer__section" class='scroll__down'>Scroll Down</a>
+    </div>
+    </section>
+    <section id="nav">
+        <div class="nav">
+            <nav>
+                <a href="#header"><ion-icon name="home-outline"></ion-icon></a>
+                <a href="#about"><ion-icon name="person-outline"></ion-icon></a>
+                <a href="#experience"><ion-icon name="cog-outline"></ion-icon></a>
+                <a href="#contact"><ion-icon name="mail-outline"></ion-icon></a>
+         
+            </nav>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container__about">
+            <div class="about__text">
+                <h2 class='about__paragraf'>Hello, briefly about me.</h2>
+              <p>Hi, my name is Ruslan, i am 30 years old, I live in Ukraine, Lviv.
+               I want to realize myself in the field of information technology, namely in web development.
+               My main skills are teamwork, creativity, sociability,  strong organizational skills, ability to solve problems and tasks.
+               I can in working under pressure and adapting to new situations and challenges.
+               I also have experience in personnel management and management positions.</p>
+       
+              </div>
+               <img class='my_cv_img' src="images/cv_img_en.jpg" alt="my_cv" />
+        </div>
+    </section>
+    <section id="experience">
+        <div className="experience__tittle"> <h2>My Developer Skills</h2></div>
+        <div class="container__experience">
+            <div class="card">
+                <div class="box">
+                    <div>
+                        <div class="percent">
+                            <svg class='card__svg'>
+                          <circle cx="70" cy="70" r="70"></circle>
+                          <circle cx="70" cy="70" r="70"></circle> 
+                            </svg>
+                            <div class="number">
+                                <h2>99<span>%</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__text">HTML</div>
+            </div>
+  
+            <div class="card">
+                <div class="box">
+                    <div>
+                        <div class="percent">
+                            <svg class='card__svg'>
+                          <circle cx="70" cy="70" r="70"></circle>
+                          <circle cx="70" cy="70" r="70"></circle> 
+                            </svg>
+                            <div class="number">
+                                <h2>97<span>%</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__text">CSS</div>
+            </div>
+  
+            <div class="card">
+                <div class="box">
+                    <div>
+                        <div class="percent">
+                            <svg class='card__svg'>
+                          <circle cx="70" cy="70" r="70"></circle>
+                          <circle cx="70" cy="70" r="70"></circle> 
+                            </svg>
+                            <div class="number">
+                                <h2>79<span>%</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__text">JavaScript</div>
+            </div>
+  
+            <div class="card">
+                <div class="box">
+                    <div>
+                        <div class="percent">
+                            <svg class='card__svg'>
+                          <circle cx="70" cy="70" r="70"></circle>
+                          <circle cx="70" cy="70" r="70"></circle> 
+                            </svg>
+                            <div class="number">
+                                <h2>67<span>%</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__text">REACT</div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h5>Get In Touch</h5>
+     <h2>Contact Me</h2>
+        <div class="container contact__container">
+            <div class="contact__options">
+                <article class='contact__option'>
+                    <h4>Email</h4>
+                    <h5>rslwow79@gmail.com</h5>
+                    <a href="mailto:rslwow79@gmail.com">Send a message</a>
+                </article>
+   
+                <article class='contact__option'>
+                    <h4>Viber</h4>
+                    <h5>+380967959909</h5>
+                    <a href="viber://chat?number=380967959909">Send a message</a>
+                </article>
+   
+                <article class='contact__option'>
+                    <h4>WhatsUp</h4>
+                    <h5>+380967959909</h5>
+                    <a href="https://api.whatsapp.com/send?phone=380967959909">Send a message</a>
+                </article>
+            </div>
+
+            <form id="form">
+                <input type="text" name='name' id="fullName" placeholder='Your Full Name' required />
+                <input type="email" name='email' id="email_id" placeholder='Your Email' required />
+                <textarea name="message" rows="7" id="message" placeholder='Your Message' required></textarea>
+                <button type='submit' class='btn btn-primary' id="btn_send">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <section id="footer__section">
+        <div class="footer">
+            <a href="#header" class='footer__logo'>R.S_79</a>
+      <ul class='permalinks'>
+        <li><a href="#header">Header</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Expereince</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#footer">Footer</a></li>
+      </ul>
+
+      <div class="footer__socials">
+        <a href="https://facebook.com" ><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="https://instagram.com"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://twitter.com"><ion-icon name="logo-twitter"></ion-icon></a>
+      </div>
+
+      <div class="footer__copyright">
+        <small>&copy; R.S_79 Tutorials. All rights reserved</small>
+      </div>
+        </div>
+    </section>
+    <!-- <div id="root"></div> -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+       emailjs.init("CxFVCtNpQDgES-1vF");
+    })();
+ </script>
+   <script src="my_main_project.js"></script>
+  </body>
+</html>
