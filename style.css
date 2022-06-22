@@ -434,21 +434,21 @@ header {
         }
     
         .card:nth-child(1) .card__svg circle:nth-child(2)  {
-            stroke-dashoffset: calc(440px - (440px * 99) / 100);
+            stroke-dashoffset: calc(440px - (440px * 78) / 100);
         }
     
         .card:nth-child(2) .card__svg circle:nth-child(2)  {
-            stroke-dashoffset: calc(440px - (440px * 97) / 100);
-        }
-    
-    
-        .card:nth-child(3) .card__svg circle:nth-child(2)  {
             stroke-dashoffset: calc(440px - (440px * 79) / 100);
         }
     
     
+        .card:nth-child(3) .card__svg circle:nth-child(2)  {
+            stroke-dashoffset: calc(440px - (440px * 59) / 100);
+        }
+    
+    
         .card:nth-child(4) .card__svg circle:nth-child(2)  {
-            stroke-dashoffset: calc(440px - (440px * 67) / 100);
+            stroke-dashoffset: calc(440px - (440px * 47) / 100);
         }
     /*-------------------------------Contact------------------------------------------*/
     .container .contact__container {
