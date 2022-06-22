@@ -290,7 +290,8 @@ header {
         position: relative;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 50px;
         align-items: center;
         padding: 2px 0;
         min-height: 100vh;
