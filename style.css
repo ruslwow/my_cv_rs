@@ -173,23 +173,23 @@ header {
     border-radius: 192px 192px 0 0;
     }
     
-    @media (max-width: 425px) {
- .me .me_foto {
-    background: var(--color-primary);
-    width: 100%;
-    height: auto;
-    position: relative;
-    left: 0;
-    margin-top: 64px;
-    border-radius: 192px 192px 0 0;
-    object-fit: cover;
-}
- .container .contact__container {
-  width: 100%;
- }
- .btn {
-  width: 100%;
- }
+    @media screen and(max-width: 425px) {
+      .me .me_foto {
+         background: var(--color-primary);
+         width: 100%;
+         height: auto;
+         position: relative;
+         left: 0;
+         margin-top: 64px;
+         border-radius: 192px 192px 0 0;
+         object-fit: cover;
+     }
+      .container .contact__container {
+        width: 100%;
+      }
+      .btn {
+        width: 100%;
+      }
 }
     /*================SCROLL HEADER=================*/
     .scroll__down {
