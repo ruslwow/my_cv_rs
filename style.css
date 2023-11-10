@@ -146,6 +146,12 @@ img {
     border-radius: 192px 192px 0 0;
     object-fit: cover;
 }
+ .container .contact__container {
+  width: 100%;
+ }
+ .btn {
+  width: 100%;
+ }
 }
 /*-----------------------HEADER---------------------*/
 #header {
