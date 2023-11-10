@@ -262,7 +262,7 @@ header {
      }
      
      .about__text {
-         max-width: 1200px
+         max-width: 1200px;
          width: 100%;
          margin-top: 50px;
          padding: 25px;
