@@ -173,7 +173,7 @@ header {
     border-radius: 192px 192px 0 0;
     }
     
-    @media screen and(max-width: 425px) {
+    @media screen and(min-width: 425px) {
       .me .me_foto {
          background: var(--color-primary);
          width: 100%;
